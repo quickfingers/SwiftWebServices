@@ -13,6 +13,7 @@
 		3CEC02781B6BCDB8003E5CFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC02771B6BCDB8003E5CFD /* Images.xcassets */; };
 		3CEC027B1B6BCDB8003E5CFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC02791B6BCDB8003E5CFD /* LaunchScreen.xib */; };
 		3CEC02871B6BCDB8003E5CFD /* JSONParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC02861B6BCDB8003E5CFD /* JSONParsingTests.swift */; };
+		3CEC02911B6BD2EA003E5CFD /* players.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC02901B6BD2EA003E5CFD /* players.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3CEC02801B6BCDB8003E5CFD /* JSONParsingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParsingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEC02851B6BCDB8003E5CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CEC02861B6BCDB8003E5CFD /* JSONParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingTests.swift; sourceTree = "<group>"; };
+		3CEC02901B6BD2EA003E5CFD /* players.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = players.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3CEC026D1B6BCDB8003E5CFD /* JSONParsing */ = {
 			isa = PBXGroup;
 			children = (
+				3CEC02901B6BD2EA003E5CFD /* players.json */,
 				3CEC02701B6BCDB8003E5CFD /* AppDelegate.swift */,
 				3CEC02721B6BCDB8003E5CFD /* ViewController.swift */,
 				3CEC02741B6BCDB8003E5CFD /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEC02911B6BD2EA003E5CFD /* players.json in Resources */,
 				3CEC02761B6BCDB8003E5CFD /* Main.storyboard in Resources */,
 				3CEC027B1B6BCDB8003E5CFD /* LaunchScreen.xib in Resources */,
 				3CEC02781B6BCDB8003E5CFD /* Images.xcassets in Resources */,
@@ -405,6 +409,7 @@
 				3CEC028C1B6BCDB8003E5CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CEC028D1B6BCDB8003E5CFD /* Build configuration list for PBXNativeTarget "JSONParsingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				3CEC028F1B6BCDB8003E5CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

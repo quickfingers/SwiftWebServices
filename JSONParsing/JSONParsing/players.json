@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Efthemios Suyat",
+		"position" : "Shooting guard",
+		"number" : 19
+	},
+
+	{
+		"name": "Nicco Garcia",
+		"position" : "Point guard",
+		"number" : 4
+	},
+
+
+	{
+		"name": "JV Macasaet",
+		"position" : "Small Forward",
+		"number" : 3
+	},
+
+	{
+		"name": "Julius Busa",
+		"position" : "Shooting Guard",
+		"number" : 9
+	}
+]
